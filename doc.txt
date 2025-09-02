@@ -1,0 +1,45 @@
+- Identificação e Classificação:
+    year: O ano de referência dos dados.
+
+    countries: O nome do país.
+
+    region: A região à qual o país pertence (ex: "Sub-Saharan Africa", "Western Europe").
+
+    hf_score: A pontuação geral do país no Índice de Liberdade Humana (HFI). Uma pontuação mais alta indica maior liberdade humana.
+
+    hf_rank: A classificação do país com base na pontuação geral (hf_score), de 1 (maior liberdade) a 165 (menor liberdade).
+
+    hf_quartile: O quartil em que o país se enquadra (1 a 4), dividindo os países em quatro grupos com base na pontuação do HFI.
+
+- Estado de direito:
+    pf_rol_procedural: Liberdade para ser julgado em processos judiciais de forma justa e imparcial.
+
+    pf_rol_civil: Liberdade e direitos relacionados a questões civis (ex: propriedade, contratos).
+
+    pf_rol_criminal: Liberdade e direitos dentro do sistema de justiça criminal.
+
+    pf_rol: Pontuação agregada do Estado de Direito.
+
+- Segurança:
+    pf_ss_homicide: Pontuação relacionada a taxas de homicídio. Uma pontuação mais alta indica uma taxa mais baixa.
+
+    pf_ss_disappearances: Pontuação relacionada a casos de desaparecimentos forçados.
+
+    pf_ss: Pontuação agregada para segurança e proteção.
+
+- Liberdade em movimento:
+    pf_movement_vdem_foreign: Liberdade para viajar para o exterior.
+
+    pf_movement_vdem_men e pf_movement_vdem_women: Liberdade de movimento dentro do país para homens e mulheres.
+
+    pf_movement: Pontuação agregada para a liberdade de movimento.
+
+- Liberdade em religião:
+    pf_religion_freedom: Pontuação da liberdade de religião.
+
+    pf_expression_direct_killed e pf_expression_direct_jailed: Dados sobre jornalistas ou ativistas mortos ou presos.
+
+    pf_assembly_freedom: Pontuação da liberdade de reunião e protesto.
+
+    pf_assembly_parties: Pontuação sobre a liberdade de formar partidos políticos e organizações civis.
+
